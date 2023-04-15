@@ -1,45 +1,39 @@
 package com.example.demo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 @Service
+@EnableAutoConfiguration
 public class TopicService {
-    private List<Topic> ArrayList;
-    private List<Topic> topics = new ArrayList<>(Arrays.asList(
-            new Topic("Spring", "Spring Framework", "Spring Framwork Description"),
-            new Topic("Java", "Spring Framework", "Spring Framwork Description"),
-            new Topic("Spring", "Spring Framework", "Spring Framwork Description"),
-            new Topic("JavaScript", "Spring Framework", "Spring Framwork Description"),
-            new Topic("Python", "Spring Framework", "Spring Framwork Description")
-    ));
+    @Autowired
+    private TopicRepository topicRepository;
 
     public List<Topic> getAllTopics(){
+        List<Topic> topics = new ArrayList<>();
+        topicRepository.findAll().forEach(topics::add);
         return topics;
     }
 
     public Topic getTopic(String id){
-        return topics.stream().filter(t -> t.getId().equals(id)).findFirst().get();
+        Optional<Topic> optionalTopic = topicRepository.findById(id);
+        return optionalTopic.get();
     }
 
     public void addTopic(Topic topic) {
-        topics.add(topic);
+        topicRepository.save(topic);
     }
 
     public void updateTopic(Topic topic, String id) {
-        for(int i=0;i<topics.size();i++){
-            Topic t = topics.get(i);
-            if(t.getId().equals(id)){
-                topics.set(i, topic);
-                return;
-            }
-        }
+        topicRepository.save(topic);
     }
 
     public void deleteTopic(String id){
-        topics.removeIf(t->t.getId().equals(id));
+        topicRepository.deleteById(id);
     }
 }

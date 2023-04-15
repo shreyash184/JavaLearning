@@ -1,11 +1,8 @@
 package com.example.demo;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import org.springframework.web.bind.annotation.RestController;
-@Entity
+
 public class Topic {
-    @Id
     private String id;
     private String name;
     private String description;
