@@ -1,0 +1,25 @@
+Q. Design a Chess ?
+
+Stepwise time distribution -
+
+You have total 1 hour [60 mins]
+
+Step 1 - Requirement gathering -
+Step 2 - Identify the Classes -
+Step 3 - Define the flow -
+Step 4 - Create UML Diagram -
+Step 5 - Code it out -
+
+
+Step 1 - Requirement gathering
+
+
+Step 2 - Identify Classes
+Board - pieces
+    Board()
+Piece [Interface]
+Position - x, y
+
+
+
+
