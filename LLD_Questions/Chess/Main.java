@@ -6,7 +6,6 @@ import java.util.Scanner;
  *
  * Implement the move method for each piece
  * Format the code properly
- * Please make the class diagram to get the overview of the chess game.
  * Currently the structuring of the files is in one folder, make is all readable and in proper structure.
  */
 

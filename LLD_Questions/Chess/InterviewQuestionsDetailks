@@ -15,10 +15,33 @@ Step 1 - Requirement gathering
 
 
 Step 2 - Identify Classes
-Board - pieces
-    Board()
-Piece [Interface]
-Position - x, y
+Game
+    Board
+        Spot
+            Position
+            Piece
+                King
+                Queen
+                Rook
+                Bishop
+                Knight
+                Pawn
+    Player
+        Human
+        Computer
+    Move
+
+Step 3 - Define the flow
+
+First We need a game which is chess, chess has board, player and move, board has Spot, player will use move to play and update on the board,
+other logic is written in the main class.
+
+Step 4 - Create Class Diagram
+it in directory
+
+Step 5 - Code it out [Done]
+
+
 
 
 
