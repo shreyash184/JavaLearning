@@ -1,18 +1,21 @@
 package com.shreyash.JDBC.services;
 
-import com.shreyash.JDBC.ProductDAO;
+import com.shreyash.JDBC.DAO.IProductDAO;
 import com.shreyash.JDBC.models.Product;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+@Service
 public class ProductService {
     private List<Product> productList;
 
     @Autowired
-    private ProductDAO productDAO;
+    @Qualifier("springJDBCProductDAO")
+    private IProductDAO productDAO;
     private int nextId = 4;
 
     public ProductService(){
@@ -28,8 +31,8 @@ public class ProductService {
 
     public Product createProduct(Product product) throws SQLException {
 
-//        return productDAO.createProduct(product);
-        return productDAO.createProductInTxn(product);
+        return productDAO.createProduct(product);
+//        return productDAO.createProductInTxn(product);
     }
 
     public Product getById(Integer id){

@@ -1,17 +1,14 @@
-package com.shreyash.JDBC;
+package com.shreyash.JDBC.DAO;
 
 import com.shreyash.JDBC.models.Product;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class ProductDAO {
-
+public class JDBCProductDAO implements IProductDAO{
     public Product createProductInTxn(Product product) throws SQLException {
         Connection con = null;
         boolean autoCommit = false;
@@ -41,7 +38,7 @@ public class ProductDAO {
         }
         return product;
     }
-
+    @Override
     public Product createProduct(Product product){
         Connection con = null;
         try{
@@ -64,7 +61,9 @@ public class ProductDAO {
         return product;
     }
 
+    @Override
     public List<Product> getAllProducts(){
+        System.out.println("This is normal JDBC");
         List<Product> products = new ArrayList<>();
         Connection con = null;
         try{
