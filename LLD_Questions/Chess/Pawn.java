@@ -5,6 +5,7 @@ public class Pawn extends Piece {
 
     @Override
     public boolean move(Spot start, Spot end) {
+
         return true;
     }
 }

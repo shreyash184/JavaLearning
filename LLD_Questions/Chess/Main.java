@@ -7,6 +7,7 @@ import java.util.Scanner;
  * Implement the move method for each piece
  * Format the code properly
  * Currently the structuring of the files is in one folder, make is all readable and in proper structure.
+ * Please make a note of which design patterns are included in this and Which principle it is following?
  */
 
 public class Main {
