@@ -2,15 +2,21 @@ import javax.swing.*;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
 
+
+public class Main {
+
+    public static void display(){
         System.out.println("Select one of the options below : ");
         System.out.println("1. Buy the Property.");
         System.out.println("2. Sell the Property.");
         System.out.println("3. Get the Hot Properties.");
         System.out.println("4. Just get the List of properties.");
+    }
+    public static void main(String[] args) {
 
+
+        display();
         Scanner in = new Scanner(System.in);
 
 
@@ -39,6 +45,7 @@ public class Main {
                     init.addUser(new User(User.count, nameBuy, phoneNoBuy, emailBuy, aadharBuy));
                     System.out.print("Please enter the Property Id that you want to buy : ");
                     int propertyId = in.nextInt();
+                    in.nextLine();
                     // Here we are expecting that buyer paid all the money
                     Order.count = Order.count + 1;
                     init.addOrderCompleted(new Order(Order.count, Status.COMPLETED, propertyId, User.count));
@@ -106,11 +113,7 @@ public class Main {
             if(isDone.equals("exit")){
                 break;
             }else if(isDone.equals("continue")){
-                System.out.println("Select one of the options below : ");
-                System.out.println("1. Buy the Property.");
-                System.out.println("2. Sell the Property.");
-                System.out.println("3. Get the Hot Properties.");
-                System.out.println("4. Just get the List of properties.");
+                display();
                 choice = in.nextInt();;
             }
         }
