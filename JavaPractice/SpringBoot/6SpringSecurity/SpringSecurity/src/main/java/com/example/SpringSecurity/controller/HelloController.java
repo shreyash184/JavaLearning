@@ -1,4 +1,4 @@
-package com.example.SpringSecurity;
+package com.example.SpringSecurity.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

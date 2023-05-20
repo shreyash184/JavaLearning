@@ -1,5 +1,7 @@
-package com.example.SpringSecurity;
+package com.example.SpringSecurity.service;
 
+import com.example.SpringSecurity.entity.AppUser;
+import com.example.SpringSecurity.repo.IAppUserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -16,10 +18,10 @@ public class AppUserService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        List<AppUser> userList = appUserRepo.findByEmail(username);
-        if(userList == null || userList.size() < 1){
+        AppUser user = appUserRepo.findByEmail(username);
+        if(user == null ){
             throw new UsernameNotFoundException("User does not exist");
         }
-        return userList.get(0);
+        return user;
     }
 }

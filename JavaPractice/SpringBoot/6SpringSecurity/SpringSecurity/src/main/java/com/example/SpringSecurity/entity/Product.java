@@ -1,4 +1,4 @@
-package com.example.SpringSecurity;
+package com.example.SpringSecurity.entity;
 
 
 import java.io.Serializable;

@@ -1,4 +1,4 @@
-package com.example.SpringSecurity;
+package com.example.SpringSecurity.entity;
 
 import lombok.Getter;
 import lombok.Setter;
