@@ -1,0 +1,10 @@
+org\example\dto\UserDto.class
+org\example\config\KafkaProducerConfig.class
+org\example\repo\UserRepo.class
+org\example\UserCreatedPayload.class
+org\example\service\UserService.class
+org\example\controller\UserController.class
+org\example\dto\UserDto$UserDtoBuilder.class
+org\example\UserApp.class
+org\example\entity\User$UserBuilder.class
+org\example\entity\User.class
