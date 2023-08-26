@@ -1,4 +1,6 @@
-package org.example;
+package org.example.subject;
+
+import org.example.observer.Observer;
 
 public interface Subject {
     public void registerObserver(Observer o);

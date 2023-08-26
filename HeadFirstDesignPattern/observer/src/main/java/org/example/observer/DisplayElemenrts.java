@@ -1,4 +1,4 @@
-package org.example;
+package org.example.observer;
 
 public interface DisplayElemenrts {
     public void display();

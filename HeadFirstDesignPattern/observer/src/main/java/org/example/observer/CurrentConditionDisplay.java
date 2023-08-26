@@ -1,4 +1,6 @@
-package org.example;
+package org.example.observer;
+
+import org.example.subject.WeatherData;
 
 public class CurrentConditionDisplay implements Observer, DisplayElemenrts{
     private int age;
