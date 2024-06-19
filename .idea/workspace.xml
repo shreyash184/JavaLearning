@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8e96ba-3aa7-4f4f-af98-a48a903857d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JavaDSA/Ashitosh/readme.md.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/test/src/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/test/src/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/untitled/src/DriveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/untitled/src/GoodVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/untitled/src/NormalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/untitled/src/OffRoadVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/untitled/src/SportyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/untitled/src/SportyVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sanket_Singh_LLD/Strategy/Own/untitled/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/DuckTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/DuckTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/adaptee/WildTurkey.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/adaptee/WildTurkey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/adapter/TurkeyAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/adapter/TurkeyAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/target/MallardDuck.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Adapter/target/classes/org/example/target/MallardDuck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/Light.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/Light.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/LightOffCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/LightOffCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/LightOnCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/LightOnCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/MacroCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/MacroCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/NoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/NoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/RemoteControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/RemoteControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/RemoteLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/RemoteLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/Stereo.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/Stereo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/StereoOffWithCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/StereoOffWithCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/StereoOnWithCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Command/target/classes/org/example/StereoOnWithCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Singleton/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Singleton/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/Singleton/target/classes/org/example/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/Singleton/target/classes/org/example/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/SingletonThreaded/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/SingletonThreaded/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/SingletonThreaded/target/classes/org/example/SingletonThreaded.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/SingletonThreaded/target/classes/org/example/SingletonThreaded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/Beverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/Beverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/concreteComponent/DarkRoast.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/concreteComponent/DarkRoast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/decorator/CondimentDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/decorator/CondimentDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/decorator/Milk.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/decorator/target/classes/org/example/decorator/Milk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/observer/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/observer/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/observer/target/classes/org/example/observer/CurrentConditionDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/observer/target/classes/org/example/observer/CurrentConditionDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeadFirstDesignPattern/observer/target/classes/org/example/subject/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/HeadFirstDesignPattern/observer/target/classes/org/example/subject/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDSA/Shreyash/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDSA/Shreyash/.idea/Shreyash.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDSA/Shreyash/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDSA/Shreyash/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDSA/Shreyash/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDSA/Shreyash/readme.md.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/ClientMaven/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/ClientMaven/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/MavenProject/target/classes/org/example/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/MavenProject/target/classes/org/example/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/MavenProject/target/classes/org/example/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/MavenProject/target/classes/org/example/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/MavenProject/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/MavenProject/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/notification-service/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/notification-service/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/transaction-service/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/transaction-service/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/UserApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/UserApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/UserCreatedPayload.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/UserCreatedPayload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/config/KafkaProducerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/config/KafkaProducerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/entity/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/repo/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/repo/UserRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/user-service/target/classes/org/example/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/wallet-service/target/classes/org/example/WalletApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/wallet-service/target/classes/org/example/WalletApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/wallet-service/target/classes/org/example/config/KafkaConsumerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice/SpringBoot/MajorProject/wallet-service/target/classes/org/example/config/KafkaConsumerConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,23 +78,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2blmX7uqJnjrwC4ZiUvXZV7fUZX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shreyashchavhan/Desktop/Github-repos/JavaLearning"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shreyashchavhan/Desktop/Github-repos/JavaLearning&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
