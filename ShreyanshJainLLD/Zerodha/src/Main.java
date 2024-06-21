@@ -5,9 +5,13 @@ public class Main {
         User user = new User("Shreyash");
         UserSystem.addUser("Shreyash", user);
         Stock stock = new Stock("Goldman Sachs", 450, EXNG_TYPE.NSE);
-        Order order = new Order(TXN_TYPE.BUY, ORDER_TYPE.MARKTET, 20, stock);
+
+        OrderFactory orderFactory = new OrderFactory();
+
+        Order order = orderFactory.getOrder(TXN_TYPE.BUY, ORDER_TYPE.LIMIT, 20, stock);
 
         OrderManager orderManager = new OrderManager();
         orderManager.placeOrder("Shreyash", order);
+        System.out.println(order.getClass().getName());
     }
 }
