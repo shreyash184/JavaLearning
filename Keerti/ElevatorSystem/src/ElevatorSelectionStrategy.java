@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface ElevatorSelectionStrategy {
+public interface ElevatorSelectionStrategy {
+    public int selectElevator(ExternalRequest externalRequest);
 }

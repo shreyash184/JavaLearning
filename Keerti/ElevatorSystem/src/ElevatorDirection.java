@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public enum ElevatorDirection {
-}
+public enum ElevatorDirection {
+    UP,
+    DOWN,
+    IDLE
+};

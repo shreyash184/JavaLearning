@@ -107,6 +107,9 @@ public class Main {
 //        uberRide.cancelRide(uberRide);
         uberRide.assignDriver(uberRide);
         uberRide.cancelRide(uberRide);
+        uberRide.requestRide(uberRide);
+//        uberRide.cancelRide(uberRide);
+        uberRide.assignDriver(uberRide);
 
     }
 }

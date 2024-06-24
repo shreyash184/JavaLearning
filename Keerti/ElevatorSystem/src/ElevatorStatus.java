@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public enum ElevatorStatus {
-}
+public enum ElevatorStatus {
+    IDLE,
+    MOVING,
+    UNDER_MAINTAINCE
+};
