@@ -4,17 +4,21 @@
 
 plugins {
     id 'buildlogic.java-application-conventions'
-    id 'java'
 }
 
 dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation 'org.apache.commons:commons-text'
     implementation project(':utilities')
 }
 
 jar {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
     manifest {
         attributes 'Main-Class': 'org.example.app.App'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
 application {
